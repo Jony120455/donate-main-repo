@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.top-banner{
+    background-image:linear-gradient(to bottom, rgba(255,255,255,0),
+    rgb(31, 25, 25)), url(./images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.header{
+    text-align: center;
+}
+.header h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;   
+}
+.header p{
+    font-size: 16px;
+}
+.top-header{
+    text-align: center;
+    color: white;
+}
+.donate{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: tomato;
+    border-radius: 8px; 
+}
+/* second section style  */
+.middle-section{
+    padding-bottom: 100px;
+}
+.donate-today{
+    text-align: center;
+}
+.donate-today h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.donate-option{
+    display: flex;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 15%;   
+}
+.position h1{
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+}
+.position{
+    width: 400px;
+    height: 100px;
+    padding: 15px;
+    background-color: rgb(249, 245, 245);
+    margin-left: 10px;
+    display: flex;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+#position-color{
+    background-color: rgb(254, 227, 227);
+    border: 2px solid rgb(193, 9, 9);
+    color: rgb(190, 9, 9);
+}
+.other-amount{
+    width: 80%;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 12%;
+    padding-bottom: 15px;
+}
+.other-amount-input{
+    border: none;   
+}
+.button-donate{
+    padding-top: 20px;
+    font-size: 20px;
+    text-decoration: none; 
+    background-color: tomato;
+    border-radius: 6px;
+} 
+.donate-now{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 20px;
+}
+.donate-plan{
+    margin-bottom: 100px;
+}
+.helpus{
+    width: 80%;
+    display: flex;
+    padding: 2%;
+    margin-left: 7%;
+    
+}
+.single-card{
+    margin-left: 3%;
+    background-color:#FFA07A;
+    padding: 5%;
+    text-align: justify;
+    border-radius: 6px;
+}
+#single-card-2{
+    background-color: #CCCCFF;
+}
+#single-card-3{
+    background-color:#9FE2BF;
+}
