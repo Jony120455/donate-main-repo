@@ -114,9 +114,13 @@ body{
 .single-card{
     margin-left: 3%;
     background-color:#FFA07A;
-    padding: 5%;
+    padding: 2%;
     text-align: justify;
     border-radius: 6px;
+    height: 250px;
+}
+.single-card img{
+    width: 30px;
 }
 #single-card-2{
     background-color: #CCCCFF;
